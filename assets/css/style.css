@@ -1,0 +1,282 @@
+/* ========== STYLE VERT PASTEL CENTRÉ ========== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    line-height: 1.6;
+    background: #e8f3e8;
+    color: #2c4a3e;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* ========== HEADER VERT PASTEL ========== */
+header {
+    background: #b8d9c6;
+    color: #2c4a3e;
+    padding: 2rem 2rem 1.5rem;
+    text-align: center;
+    border-bottom: 4px solid #9bc1ae;
+    box-shadow: 0 4px 10px rgba(155, 193, 174, 0.2);
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: #1e3d2f;
+}
+
+/* Navigation centrée */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: #1e3d2f;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.7rem 1.8rem;
+    background: #f0f9f0;
+    border-radius: 40px;
+    transition: all 0.3s;
+    display: inline-block;
+    border: 1px solid #9bc1ae;
+}
+
+nav a:hover {
+    background: #9bc1ae;
+    color: white;
+    transform: translateY(-3px);
+}
+
+/* ========== MAIN CENTRÉ ========== */
+main {
+    max-width: 700px;
+    margin: 3rem auto;
+    padding: 0 1.5rem;
+    width: 100%;
+    flex: 1;
+    text-align: center;
+}
+
+/* ========== ACCUEIL ========== */
+section {
+    background: #f0f9f0;
+    padding: 2.5rem;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(155, 193, 174, 0.15);
+    border: 2px solid #b8d9c6;
+    text-align: center;
+}
+
+section h2 {
+    color: #1e3d2f;
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px dashed #9bc1ae;
+    padding-bottom: 0.8rem;
+}
+
+section p {
+    font-size: 1.1rem;
+    margin-bottom: 1rem;
+    color: #2c4a3e;
+}
+
+section ul {
+    display: inline-block;
+    text-align: left;
+    margin: 1rem auto;
+    padding-left: 1.5rem;
+    color: #2c4a3e;
+}
+
+section li {
+    margin-bottom: 0.5rem;
+}
+
+/* ========== FORMULAIRE CENTRÉ ========== */
+form {
+    background: #f0f9f0;
+    padding: 2.5rem;
+    border-radius: 30px;
+    box-shadow: 0 15px 30px rgba(155, 193, 174, 0.15);
+    border: 2px solid #b8d9c6;
+    text-align: center;
+}
+
+fieldset {
+    border: none;
+    text-align: center;
+}
+
+legend {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #1e3d2f;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px dashed #9bc1ae;
+}
+
+/* Centrer tous les groupes */
+.form-group {
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+/* Labels centrés */
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #1e3d2f;
+    font-size: 1.1rem;
+    text-align: center;
+}
+
+/* Champs centrés */
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 80%;
+    max-width: 400px;
+    padding: 1rem;
+    border: 2px solid #b8d9c6;
+    border-radius: 50px;
+    font-size: 1rem;
+    background: white;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+}
+
+textarea {
+    border-radius: 25px;
+    resize: vertical;
+    min-height: 100px;
+    text-align: left;
+    padding: 1rem;
+}
+
+/* Radio et checkbox centrés */
+.form-group span {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #1e3d2f;
+    text-align: center;
+}
+
+.radio-group {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.radio-group label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    font-weight: normal;
+    background: #e8f3e8;
+    padding: 0.5rem 1.2rem;
+    border-radius: 40px;
+    border: 1px solid #9bc1ae;
+}
+
+input[type="radio"], 
+input[type="checkbox"] {
+    accent-color: #9bc1ae;
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: center;
+}
+
+.checkbox-group label {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    background: #e8f3e8;
+    padding: 0.5rem 1.5rem;
+    border-radius: 40px;
+    border: 1px solid #9bc1ae;
+}
+
+/* ========== BOUTON VERT PASTEL ========== */
+.btn {
+    background: #9bc1ae;
+    color: #1e3d2f;
+    padding: 1rem 3rem;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    border: 2px solid #b8d9c6;
+    box-shadow: 0 5px 0 #6f9a84;
+}
+
+.btn:hover {
+    background: #b8d9c6;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 0 #6f9a84;
+}
+
+.btn:active {
+    transform: translateY(5px);
+    box-shadow: 0 2px 0 #6f9a84;
+}
+
+/* ========== PAGE CONFIRMATION ========== */
+.confirmation {
+    text-align: center;
+    background: #f0f9f0;
+    padding: 3rem;
+    border-radius: 30px;
+    border: 2px solid #b8d9c6;
+}
+
+.confirmation p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+    color: #1e3d2f;
+}
+
+.confirmation .btn {
+    margin-top: 1rem;
+}
+
+/* ========== FOOTER VERT PASTEL ========== */
+footer {
+    background: #b8d9c6;
+    color: #1e3d2f;
+    text-align: center;
+    padding: 1.5rem;
+    margin-top: auto;
+    border-top: 4px solid #9bc1ae;
+    font-weight: 500;
+}

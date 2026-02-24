@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire - TP HTML/CSS</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Formulaire d'inscription</h1>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Accueil</a></li>
+                <li><a href="formulaire.html">Formulaire</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Vos informations</legend>
+
+                <div class="form-group">
+                    <label for="nom">Nom :</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email :</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="age">Âge :</label>
+                    <input type="number" id="age" name="age" min="1" max="120" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="pays">Pays :</label>
+                    <select id="pays" name="pays" required>
+                        <option value="" selected disabled>-- Choisissez un pays --</option>
+                        <option value="fr">France</option>
+                        <option value="be">Belgique</option>
+                        <option value="ch">Suisse</option>
+                        <option value="ca">Canada</option>
+                        <option value="lu">Luxembourg</option>
+                        <option value="ma">Maroc</option>
+                        <option value="tn">Tunisie</option>
+                        <option value="sn">Sénégal</option>
+                        <option value="ci">Côte d'Ivoire</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <span>Genre :</span>
+                    <div class="radio-group">
+                        <label><input type="radio" name="genre" value="homme" required> Homme</label>
+                        <label><input type="radio" name="genre" value="femme" required> Femme</label>
+                        <label><input type="radio" name="genre" value="autre" required> Autre</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="checkbox-group">
+                        <label><input type="checkbox" name="newsletter" value="ok"> S'abonner à la newsletter</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" placeholder="Votre message..."></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" class="btn">Envoyer</button>
+                </div>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - TP HTML/CSS - Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
