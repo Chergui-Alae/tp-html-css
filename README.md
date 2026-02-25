@@ -16,4 +16,5 @@ Il contient :
 ## Exécution
 Ouvrir `index.html` dans un navigateur (pas de serveur nécessaire).
 
-
+## Auteur
+Chergui-Alae

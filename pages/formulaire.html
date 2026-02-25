@@ -8,8 +8,7 @@
 </head>
 <body>
     <header>
-        <h1>Formulaire d'inscription</h1>
-        <nav>
+        <nav class="main-nav">
             <ul>
                 <li><a href="../index.html">Accueil</a></li>
                 <li><a href="formulaire.html">Formulaire</a></li>
@@ -20,23 +19,33 @@
     <main>
         <form action="#" method="post">
             <fieldset>
-                <legend>Vos informations</legend>
+                <legend>Vos informations personnelles</legend>
 
+                <!-- Prénom -->
+                <div class="form-group">
+                    <label for="prenom">Prénom :</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+
+                <!-- Nom -->
                 <div class="form-group">
                     <label for="nom">Nom :</label>
                     <input type="text" id="nom" name="nom" required>
                 </div>
 
+                <!-- Email -->
                 <div class="form-group">
                     <label for="email">Email :</label>
                     <input type="email" id="email" name="email" required>
                 </div>
 
+                <!-- Âge -->
                 <div class="form-group">
                     <label for="age">Âge :</label>
                     <input type="number" id="age" name="age" min="1" max="120" required>
                 </div>
 
+                <!-- Pays -->
                 <div class="form-group">
                     <label for="pays">Pays :</label>
                     <select id="pays" name="pays" required>
@@ -53,6 +62,7 @@
                     </select>
                 </div>
 
+                <!-- Genre -->
                 <div class="form-group">
                     <span>Genre :</span>
                     <div class="radio-group">
@@ -62,17 +72,13 @@
                     </div>
                 </div>
 
-                <div class="form-group">
-                    <div class="checkbox-group">
-                        <label><input type="checkbox" name="newsletter" value="ok"> S'abonner à la newsletter</label>
-                    </div>
-                </div>
-
+                <!-- Message -->
                 <div class="form-group">
                     <label for="message">Message :</label>
                     <textarea id="message" name="message" rows="4" placeholder="Votre message..."></textarea>
                 </div>
 
+                <!-- Bouton -->
                 <div class="form-group">
                     <button type="submit" class="btn">Envoyer</button>
                 </div>
