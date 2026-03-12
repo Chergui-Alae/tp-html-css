@@ -1,4 +1,4 @@
-/* ========== STYLE VERT PASTEL CENTRÉ ========== */
+
 * {
     margin: 0;
     padding: 0;
@@ -15,9 +15,9 @@ body {
     flex-direction: column;
 }
 
-/* ========== HEADER VERT PASTEL ========== */
+
 header {
-    background: #b8d9c6;
+    background: #78f4ae;
     color: #2c4a3e;
     padding: 2rem 2rem 1.5rem;
     text-align: center;
@@ -31,7 +31,7 @@ header h1 {
     color: #1e3d2f;
 }
 
-/* Navigation centrée */
+
 nav ul {
     list-style: none;
     display: flex;
@@ -58,7 +58,7 @@ nav a:hover {
     transform: translateY(-3px);
 }
 
-/* ========== MAIN CENTRÉ ========== */
+
 main {
     max-width: 700px;
     margin: 3rem auto;
@@ -68,7 +68,7 @@ main {
     text-align: center;
 }
 
-/* ========== ACCUEIL ========== */
+
 section {
     background: #f0f9f0;
     padding: 2.5rem;
@@ -104,7 +104,7 @@ section li {
     margin-bottom: 0.5rem;
 }
 
-/* ========== FORMULAIRE CENTRÉ ========== */
+
 form {
     background: #f0f9f0;
     padding: 2.5rem;
@@ -130,14 +130,14 @@ legend {
     border-bottom: 2px dashed #9bc1ae;
 }
 
-/* Centrer tous les groupes */
+
 .form-group {
     margin-bottom: 1.5rem;
     text-align: center;
     width: 100%;
 }
 
-/* Labels centrés */
+
 label {
     display: block;
     margin-bottom: 0.5rem;
@@ -147,7 +147,7 @@ label {
     text-align: center;
 }
 
-/* Champs centrés */
+
 input[type="text"],
 input[type="email"],
 input[type="number"],
@@ -173,7 +173,7 @@ textarea {
     padding: 1rem;
 }
 
-/* Radio et checkbox centrés */
+
 .form-group span {
     display: block;
     margin-bottom: 0.5rem;
@@ -222,7 +222,7 @@ input[type="checkbox"] {
     border: 1px solid #9bc1ae;
 }
 
-/* ========== BOUTON VERT PASTEL ========== */
+
 .btn {
     background: #9bc1ae;
     color: #1e3d2f;
@@ -251,7 +251,7 @@ input[type="checkbox"] {
     box-shadow: 0 2px 0 #6f9a84;
 }
 
-/* ========== PAGE CONFIRMATION ========== */
+
 .confirmation {
     text-align: center;
     background: #f0f9f0;
@@ -270,7 +270,7 @@ input[type="checkbox"] {
     margin-top: 1rem;
 }
 
-/* ========== FOOTER VERT PASTEL ========== */
+
 footer {
     background: #b8d9c6;
     color: #1e3d2f;
@@ -279,7 +279,7 @@ footer {
     margin-top: auto;
     border-top: 4px solid #9bc1ae;
     font-weight: 500;
-    /* ========== PAGE CONFIRMATION ========== */
+    
 .confirmation-message {
     background: #f0f9f0;
     padding: 3rem 2rem;
